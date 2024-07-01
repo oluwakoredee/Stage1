@@ -44,7 +44,7 @@ header {
 
 #section {
   border-radius: 3px;
-  font-size: 30px;
+  font-size: 25px;
   width: fit-content;
 }
 h1 {
@@ -56,7 +56,7 @@ footer {
   padding: 25px 60px;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 footer a {
