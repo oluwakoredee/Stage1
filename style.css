@@ -1,0 +1,131 @@
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav {
+    background-color: #212529;
+    padding: 25px 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin: 0;
+  }
+  
+  #learnlink {
+    background-color: rgb(183, 183, 27);
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+  
+  header{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+  
+    height: 500px;
+    margin-left: 100px;
+    gap: 200px;
+    align-content: center;
+  }
+  
+  #section {
+    border-radius: 3px;
+    font-size: 25px;
+    width: fit-content;
+  }
+  h1 {
+    background-color: #212529;
+  }
+  
+  footer {
+    background-color: #212529;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    background-color: rgb(183, 183, 27);
+    padding: 4px 8px;
+    color: #212529;
+    border-radius: 4px;
+  }
+  
+  /* mobile responsiveness */
+  @media (min-width: 320px) and (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1em 0;
+    }
+    #learnlink {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4px 8px;
+      border-radius: 3px;
+    }
+    header {
+      width: 100%;
+      color: white;
+      padding: 10px;
+    }
+    .section {
+      display: flex;
+      flex-direction: column;
+      height: 10px;
+      margin-top: 440px;
+      margin-right: 70px;
+      gap: 0;
+    }
+    #section {
+      font-size: 20px;
+      width: fit-content;
+    }
+    footer {
+      margin-top: 450px;
+      width: screen;
+      gap: 11px;
+    }
+  }
+  
+  /* Tablet responsiveness */
+  @media (min-width: 597px) and (max-width: 1000px) {
+    .section {
+      display: flex;
+      justify-content: center;
+  
+      height: 500px;
+      margin-right: 80px;
+      gap: 20px;
+      align-content: center;
+    }
+  
+    #section {
+      font-size: 16px;
+      width: fit-content;
+      gap: 0;
+    }
+    footer {
+      margin-top: 60px;
+      width: screen;
+      gap: 11px;
+    }
+  }
+  
